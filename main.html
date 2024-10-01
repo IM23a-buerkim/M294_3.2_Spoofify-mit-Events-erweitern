@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Spoofify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+<body>
+<header>
+    <nav class="navi">
+        <div class="Spoofify">Spoofify</div>
+        <div class="buttons">
+            <a href="#" class="nt1">Top of your birthweek</a>
+            <a href="#" class="nt2">Latest releases randomized</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <article class="ma1">
+        <div class="ma1ti1">Your spoofed overview</div>
+        <div class="ma1te1">Welcome to Spoofify, the rip-off music streaming services of ICT Modul 294!</div>
+    </article>
+    <article class="ma2">
+        <div class="ma2ti2">Top of your birthweek</div>
+        <ol>
+            <li><strong>Jump</strong> by <i>Kris Kross</i></li>
+            <li><strong>My Lovin' (You're Never Gonna Get It)</strong> by <i>En Vogue</i></li>
+            <li><strong>Bohemian Rhapsody</strong> by <i>Queen</i></li>
+            <li><strong>Save The Best For Last</strong> by <i>Vanessa Williams</i></li>
+            <li><strong>Live And Learn</strong> by <i>Joe Public</i></li>
+        </ol>
+    </article>
+    <article class="ma3">
+        <div class="ma3ti">Latest releases randomized</div>
+        <div class="ma3picturesrow1">
+            <div class="imgdiv">
+                <img class="imgg" src="https://sahneplatten.de/wp-content/uploads/2017/11/ACDC-Back-In-Black.jpg" onclick="show_name(track1)">
+                <div class='trackk' id="track1"></div>
+            </div>
+            <div class="imgdiv">
+                <img class="imgg" src="https://image.stern.de/30405680/t/DA/v5/w1440/r0/-/queen-1974.jpg" onclick="show_name(track2)">
+                <div class='trackk' id="track2"></div>
+            </div>
+            <div class="imgdiv">
+                <img class="imgg" src="https://loremflickr.com/480/480/cd,album,cover?random=3" onclick="show_name(track3)">
+                <div class='trackk' id="track3"></div>
+            </div>
+        </div>
+        <div class="ma3picturesrow2">
+            <div class="imgdiv">
+                <img class="imgg" src="https://loremflickr.com/480/480/cd,album,cover?random=4" onclick="show_name(track4)">
+                <div class='trackk' id="track4"></div>
+            </div>
+            <div class="imgdiv">
+                <img class="imgg" src="https://loremflickr.com/480/480/cd,album,cover?random=5" onclick="show_name(track5)">
+                <div class='trackk' id="track5"></div>
+            </div>
+            <div class="imgdiv">
+                <img class="imgg" src="https://loremflickr.com/480/480/cd,album,cover?random=6" onclick="show_name(track6)">
+                <div class='trackk' id="track6"></div>
+            </div>
+        </div>
+    </article>
+    <button onclick="reloadImage()">Reload Image</button>
+    <article class="playlist">
+        <div class="Player">Player:</div>
+        <div id="Player"></div>
+    </article>
+</main>
+
+<footer>
+    <div class="f1">
+        <div class="f1t">© 2024 Spooky Example, Inc.</div>
+    </div>
+</footer>
+<script src="Java.js"></script>
+</body>
+</html>
